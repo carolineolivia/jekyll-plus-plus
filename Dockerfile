@@ -32,6 +32,8 @@ RUN gem install \
       github-pages \
       jekyll-responsive-image \
       jekyll-auth
+
+RUN echo $'source "https://rubygems.org".\ngem \'jekyll-auth\'' >Gemfile
       
 RUN bundle install
 
