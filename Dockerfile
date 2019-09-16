@@ -33,3 +33,6 @@ RUN gem install \
       jekyll-responsive-image \
       jekyll-auth
       
+RUN bundle install
+
+RUN bundle exec jekyll-auth new
