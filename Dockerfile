@@ -28,9 +28,8 @@ ENV LC_ALL=en_US.UTF-8
 #   https://github.com/wildlyinaccurate/jekyll-responsive-image
 
 RUN gem install \
+      bundler \
       github-pages \
       jekyll-responsive-image \
-      jekyll-auth \
-      bundler
-
-RUN 
+      jekyll-auth
+      
