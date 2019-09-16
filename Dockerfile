@@ -30,4 +30,7 @@ ENV LC_ALL=en_US.UTF-8
 RUN gem install \
       github-pages \
       jekyll-responsive-image \
-      jekyll-auth
+      jekyll-auth \
+      bundler
+
+RUN 
